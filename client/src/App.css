@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+  width: 100%
+}
+
+html,body { height:100%; }
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+h1 {
+  font-family: 'Lobster Two', cursive;
+  font-size: 82px;
+}
+
+h2, p{
+  font-family: 'Didact Gothic', sans-serif;
+  margin-top: 3px;
+}
+
+h2{
+  font-size: 250%;
+}
+
+h3{
+  font-family: 'Catamaran', sans-serif;
+}
+
+
+button {
+  margin-top: 5px;
+  padding: 2px 2px 2px 2px;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+::placeholder{
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+input{
+  width: 80%;
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+}
+
+/* border-color: #a1d6ff; */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+ }
+
+ .container{
+   min-height:70vh;
+   overflow: auto;
+  
+ }

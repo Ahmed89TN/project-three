@@ -1,0 +1,44 @@
+.nav-item{
+    margin-left: 50px;
+    width: 107%;
+} 
+.navbar{
+    width: 100%;
+    height: 15%;
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    border-radius: 25px;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+}
+.bg-dark {
+    background-color: #22aade!important;
+}
+
+img.logo{
+    height: 70px;
+    width: 350px;
+    margin-left: -99px;
+}
+h3{
+    font-family: "Catamaran", sans-serif;
+    margin-top:25px;
+    font-size: 25px;
+}
+.nav-link{
+    margin-left: 60px;
+    color: white;
+}
+
+i{
+  font-size: 25px;
+}
+
+.nav{
+    float: right;
+    margin-bottom: 26px;
+   
+    margin-right:90px; 
+}
