@@ -3,9 +3,24 @@ import "./style.css";
 
 function Footer() {
   return (
-    <footer className="footer">
-      <span><p class="mt-5 mb-3 text muted"> <a className="href "href="/">World View</a>&copy;2019</p></span>
-    </footer>
+    <footer className="footer-distributed">
+
+			<div className="footer-left">
+
+				<p className="footer-company-name">WORLD VIEW&copy; 2019</p>
+
+			</div>
+
+			<div className="footer-right">
+
+				<form method="get" action="#">
+					<input placeholder="Search our website" name="search" />
+					<i className="fa fa-search"></i>
+				</form>
+
+			</div>
+
+		</footer>
   );
 }
 

@@ -18,42 +18,42 @@ function NavBar(props){
   if(props.nav) {
       link = <li className="nav-item">
         <Link to="/" className={window.location.pathname === "/map" ? "nav-link active": "nav-link"}> 
-     <h3><i class="glyphicon glyphicon-globe">MAP</i></h3>
+     <h3><i className="glyphicon glyphicon-globe">MAP</i></h3>
       </Link> 
         </li>
   }
         if(props.nav) {
           link1 = <li className="nav-item">
             <Link to="/Feed" className={window.location.pathname === "/Feed" ? "nav-link active": "nav-link"}>
-           <h3><i class="glyphicon glyphicon-user"></i><i class="glyphicon glyphicon-user"></i>FRIENDS</h3>
+           <h3><i className="glyphicon glyphicon-user"></i><i className="glyphicon glyphicon-user"></i>FRIENDS</h3>
           </Link> 
             </li>
         }
             if(props.nav) {
               link2 = <li className="nav-item">
                <Link to="/profile" className={window.location.pathname === "/profile" ? "nav-link active": "nav-link"}>
-                 <h3><i class="glyphicon glyphicon-user"></i>PROFILE</h3>
+                 <h3><i className="glyphicon glyphicon-user"></i>PROFILE</h3>
               </Link> 
                 </li>
             }
                 if(!props.nav) {
                   link4 = <li className="nav-item">
                      <Link to="/signup" className={window.location.pathname === "/signup" ? "nav-link active": "nav-link"}> 
-                      <h3><i class="glyphicon glyphicon-plus"></i>SIGN UP</h3>
+                      <h3><i className="glyphicon glyphicon-plus"></i>SIGN UP</h3>
                   </Link> 
                     </li>
                 }
                 if(!props.nav) {
                   link5 = <li className="nav-item">
                      <Link to="/login" className={window.location.pathname === "/login" ? "nav-link active": "nav-link"} >
-                         <h3><i class="glyphicon glyphicon-log-in"></i>LOG IN</h3>
+                         <h3><i className="glyphicon glyphicon-log-in"></i>LOG IN</h3>
                   </Link> 
                     </li>
                 }
                 if(props.nav) {
                   link6 = <li className="nav-item ">
                      <Link to="/login"  className={window.location.pathname === "/login" ? "nav-link active": "nav-link"}  onClick={props.handleLogOut}> 
-                      <h3><i class="glyphicon glyphicon-log-out"></i>LOG OUT</h3>
+                      <h3><i className="glyphicon glyphicon-log-out"></i>LOG OUT</h3>
                   </Link> 
                     </li>
                 }

@@ -69,7 +69,7 @@ class Login extends Component {
                   placeholder="Password"
                 />
                 <button className="btn btn-lg btn-block" onClick={this.handleFormSubmit}>Submit</button>
-                <span>{this.state.error}</span>
+                <span className="error">{this.state.error}</span>
               </form>
               <p class="mt-3"><small>Need an account? <a href="/signup">Create your account here.</a></small></p>
             </div>

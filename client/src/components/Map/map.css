@@ -13,12 +13,12 @@
 } */
 .mapspin{
     position: absolute;
-    top: 0;
+    top: 18px;
     bottom: 0;
     left: 0;
     right: 0;
     width: 100%;
-    height: 78%;
+    height: 80%;
     margin: auto;
     background-size: cover;
     background-color: #90e3fc;

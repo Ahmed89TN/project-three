@@ -10,3 +10,14 @@
 .image-logo {
     margin-top: 100px;
 }
+.error{
+    margin-top: 25px;
+    font-size:200%;
+    -webkit-animation: color-change 0.6s infinite ;
+}
+
+@-webkit-keyframes color-change {
+  0% { color:#e91c1583; }
+  50% { color: #b13131; }
+  100% { color: #e91c1583; }
+} 

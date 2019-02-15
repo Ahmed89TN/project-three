@@ -22,7 +22,7 @@ class Profile extends Component {
       <div className="card">
       <div className="card-header" style={{backgroundColor:"rgb(237, 252, 254)"}}><h1><strong><center>{this.state.results.name}</center></strong></h1></div>
       <div className="card-body">
-        <img alt={this.state.results.name} src={this.state.results.image} style={{width:"100%", boxShadow: "0 3px 6px #999, 0 3px 6px #999"}} />
+        <img alt={this.state.results.name} src={this.state.results.image} style={{width:"100%", boxShadow: "0 3px 6px #999, 0 3px 6px #999", maxHeight:"90%"}} />
         <br />
         <br />
         <h2><strong>Name:</strong> {this.state.results.name}</h2>

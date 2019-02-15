@@ -17,7 +17,7 @@ class App extends Component {
 
   divStyle = {
     backgroundColor: "#00000", 
-    height: "100%"
+    height: "150%"
   }
   state = {
     loaded: false,
