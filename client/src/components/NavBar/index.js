@@ -18,7 +18,7 @@ function NavBar(props) {
   if (props.nav) {
     link = <li className="nav-item">
       <Link to="/" className={window.location.pathname === "/map" ? "nav-link active" : "nav-link"}>
-        <h3><i className="glyphicon glyphicon-globe"> MAP</i></h3>
+        <h3><i className="glyphicon glyphicon-globe"></i> MAP</h3>
       </Link>
     </li>
   }

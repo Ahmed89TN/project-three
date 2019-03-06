@@ -20,7 +20,7 @@ class Feed extends React.Component {
   render() {
     return(
       <div className="container">
-        <center><h2>Friends</h2></center>
+       
         <div className="content row" 
         style={{paddingLeft: "1rem",
         paddingRight: "1rem", 
