@@ -74,6 +74,20 @@ router.put("/api/User/:id/:following", function(req, res) {
     res.json(err);
   });
 });
+// to unfollow user 
+router.put("/api/UserUnfollow/:id/:following", function(req, res) {
+
+  User.findByIdAndUpdate(
+    {_id: req.params.id},
+    {$pull: { following: req.params.following}})
+  .then((result) => {
+    res.json(result);
+  })
+  .catch((err) => {
+    // if not, we can at least catch the errr
+    res.json(err);
+  });
+});
 
 // for finding all docs in following array 
 router.get("/Feed/:id", function(req, res) {

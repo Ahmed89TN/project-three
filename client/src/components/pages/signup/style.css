@@ -1,7 +1,9 @@
 .form {
   margin: 20px;
+  margin-left: 400px;
   padding: 50px;
   border: solid #22aade;
+  width:50%; 
 }
 
 .form input {

@@ -50,7 +50,7 @@ class Login extends Component {
             </div>
             <div className="col-md-4 text-center">
               <img className="image-logo" src={logo} alt=""/>
-              <h1>Welcome</h1>
+              <h1>World View</h1>
               <form className="login-form">
                 <input
                   className="form-control"

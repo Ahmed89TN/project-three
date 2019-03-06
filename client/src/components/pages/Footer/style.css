@@ -112,7 +112,9 @@ footer{
 }
 
 @media (max-width: 800px) {
-
+     footer{
+		 visibility: hidden;
+	 }
 	.footer-distributed{
 		padding: 30px;
 		text-align: center;

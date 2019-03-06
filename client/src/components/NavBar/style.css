@@ -8,7 +8,7 @@
     text-align: justify;
     -moz-text-align-last: center;
     text-align-last: center;
-    border-radius: 25px;
+    
     -moz-box-shadow:    3px 3px 5px 6px #ccc;
     -webkit-box-shadow: 3px 3px 5px 6px #ccc;
     box-shadow:         3px 3px 5px 6px #ccc;
@@ -18,14 +18,14 @@
 }
 
 img.logo{
-    height: 70px;
-    width: 350px;
-    margin-left: -99px;
+    height: 90px;
+    width: 90px;
+    margin-left: -200px;
 }
 h3{
     font-family: "Catamaran", sans-serif;
     margin-top:25px;
-    font-size: 25px;
+    font-size: 20px;
 }
 .nav-link{
     margin-left: 60px;
@@ -33,7 +33,7 @@ h3{
 }
 
 i{
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .nav{
@@ -42,3 +42,13 @@ i{
    
     margin-right:90px; 
 }
+.nav-item2{
+    float: left;
+    margin-left: 730px;
+    width: 107%;
+} 
+.nav-item3{
+    margin-left: 310px;
+    width: 107%;
+    float: left;
+} 

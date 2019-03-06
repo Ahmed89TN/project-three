@@ -43,3 +43,8 @@ footer {
      overflow: auto;
     
    }
+h2{
+ font-family:  'Didact Gothic', sans-serif;
+ font-size:   60px;
+ font-weight:  bold;
+}

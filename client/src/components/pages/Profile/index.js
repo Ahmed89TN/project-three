@@ -25,13 +25,13 @@ class Profile extends Component {
         <img alt={this.state.results.name} src={this.state.results.image} style={{width:"100%", boxShadow: "0 3px 6px #999, 0 3px 6px #999", maxHeight:"90%"}} />
         <br />
         <br />
-        <h2><strong>Name:</strong> {this.state.results.name}</h2>
-        <h2><strong>Age:</strong> {this.state.results.age}</h2>
-        <h2><strong>Country:</strong> {this.state.results.country}</h2>
-        <h2><strong>Music:</strong> <a target="_blank" rel="noopener noreferrer" href={this.state.results.songLink}>{this.state.results.faveSong}</a> </h2>
-        <h2><strong>Food:</strong> {this.state.results.faveFood}</h2>
-        <h2><strong>Place:</strong> {this.state.results.favePlace}</h2>
-        <h2><strong>Did you know?:</strong> {this.state.results.funFact}</h2>
+        <h1><strong>Name:</strong> {this.state.results.name}</h1>
+        <h1><strong>Age:</strong> {this.state.results.age}</h1>
+        <h1><strong>Country:</strong> {this.state.results.country}</h1>
+        <h1><strong>Music:</strong> <a target="_blank" rel="noopener noreferrer" href={this.state.results.songLink}>{this.state.results.faveSong}</a> </h1>
+        <h1><strong>Food:</strong> {this.state.results.faveFood}</h1>
+        <h1><strong>Place:</strong> {this.state.results.favePlace}</h1>
+        <h1><strong>Did you know?:</strong> {this.state.results.funFact}</h1>
       </div>
     </div>
     </div>

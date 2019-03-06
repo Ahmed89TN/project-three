@@ -22,7 +22,7 @@ class Country extends React.Component {
   render() {
     return (
       <div className="container">
-           <center><h1>{this.props.match.params.name}</h1></center>
+           <center><h2>{this.props.match.params.name}</h2></center>
         <div className="content" >
       <ul className="list-group" >
         {
