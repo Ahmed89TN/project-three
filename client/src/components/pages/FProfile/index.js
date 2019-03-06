@@ -49,7 +49,7 @@ class FProfile extends React.Component {
             className="btn btn-outline-primary btn-lg"
             onClick={this.state.check? this.follow:this.unfollow}
           >
-           {this.state.check? <h2>Follow  <i class="glyphicon glyphicon-plus"></i><i class="glyphicon glyphicon-user"></i></h2> : <h2>Unfollow <i class="glyphicon glyphicon-remove"></i><i class="glyphicon glyphicon-user"></i></h2>}
+           {this.state.check? <h1>Follow  <i class="glyphicon glyphicon-plus"></i><i class="glyphicon glyphicon-user"></i></h1> : <h1>Unfollow <i class="glyphicon glyphicon-remove"></i><i class="glyphicon glyphicon-user"></i></h1>}
           </button>
           {/* <button
             className="btn btn-outline-primary btn-lg"
